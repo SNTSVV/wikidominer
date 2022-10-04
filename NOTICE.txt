@@ -1,0 +1,17 @@
+"WIKIDOMINER" is © 2022 University of Luxembourg
+and is distributed under the MIT license.
+
+Authors:
+  	
+	Saad EZZINI <saad.ezzini@uni.lu>
+	Sallam ABUALHAIJA <sallam.abuahaija@uni.lu>
+	Mehrdad Sabetzadeh
+
+Paper:
+  - "WikiDoMiner: Wikipedia Domain-specific Miner", arXiv 2022
+
+"WIKIDOMINER" includes the following open source components:
+	- Binaries of Natural Language Toolkit (NLTK) under Apache 2.0 License
+	- Binaries of Wikipedia, Wikipedia-API, TQDM, Wordcloud, and spaCy under MIT License
+    - Binaries of scikit-learn,NumPy, Pandas, and PyPDF2 under BSD License
+    - Binaries of Python and Matplotlib under PSF License
