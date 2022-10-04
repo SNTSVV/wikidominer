@@ -34,7 +34,7 @@ def main():
     parser.add_argument('--title-similarity', dest='title_similarity', type=bool, default=False, help='filter using similarity between the keywords and the matching titles')
     parser.add_argument('--sim_threshold', dest='sim_threshold', type=float, default=0.5, help='set similarity threshold when using title similarity')
     parser.add_argument('--filter-cats', dest='filter_cats', type=bool, default=True, help='filter generic categories')
-    parser.add_argument('--use-tfidf', dest='tfidf', type=bool, default=False, help='use TFIDF to rank keywords')
+    parser.add_argument('--use-tfidf', dest='tfidf', type=bool, default=True, help='use TFIDF to rank keywords')
     parser.add_argument('--limit-keywords', dest='K', type=int, default=None, help='Set to limit the number of extracted keywords if TFIDF is used.')
     parser.add_argument('--wiki-depth', dest='depth', type=int, default=0, help='Set the depth of wikiedia search. 0: only the articles that matches the keywords. 1: articles from the the categories of matching keywords. 2 articles from the subcategories..')
     parser.add_argument('--max-limit', dest='maxlimit', type=int, default=200, help='set limit to filter large categories')
